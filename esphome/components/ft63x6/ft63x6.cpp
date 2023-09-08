@@ -115,6 +115,7 @@ void FT63X6Touchscreen::check_touch_() {
     }
 
   for (uint8_t i = first_touch_id; i < (touch_count + first_touch_id); i++) {
+    //test
     int x_resolution(320);
     int y_resolution(480);
     uint32_t raw_x = touch_point_.tp[i].x * w / x_resolution;
